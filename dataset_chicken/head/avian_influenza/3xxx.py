@@ -1,7 +1,7 @@
 import json
 
-input_file = "AI_0-50.jsonl"
-output_file = "AI_not_influenza.txt"
+input_file = "1Avian_influenza.jsonl"
+output_file = "1AI_not_influenza_2.txt"
 
 # Tập chứa ảnh không phải AI
 not_ai_images = set()
