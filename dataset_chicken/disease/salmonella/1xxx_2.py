@@ -1,7 +1,7 @@
 import re
 
-input_file = "1salmonella_final copy.jsonl"            # file jsonl gốc
-output_file = "cleaned_paths.jsonl"   # file xuất ra với path đã rút gọn
+input_file = "1salmonella_class3.jsonl"            # file jsonl gốc
+output_file = "1cleaned_paths.jsonl"   # file xuất ra với path đã rút gọn
 
 # regex để cắt phần path trước dataset_chicken
 pattern = re.compile(r'"img_path":\s*"[^"]*dataset_chicken')
